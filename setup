@@ -57,7 +57,7 @@ After=network.target
 ExecStart=/usr/local/src/xmr-stak/build/bin/xmr-stak -c /usr/local/src/xmr-stak/build/bin/config.txt --cpu /usr/local/src/xmr-stak/build/bin/cpu.txt -C /usr/local/src/xmr-stak/build/bin/pools.txt
 WatchdogSec=300
 Restart=always
-RestartSec=90
+RestartSec=120
 User=root
 [Install]
 WantedBy=multi-user.target
